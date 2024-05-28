@@ -1,0 +1,42 @@
+{
+	"name": "client",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"allotment": "^1.19.0",
+		"axios": "^1.5.0",
+		"bootstrap": "^5.3.0",
+		"qrcode.react": "^3.1.0",
+		"react": "^18.2.0",
+		"react-audio-voice-recorder": "^2.1.2",
+		"react-bootstrap": "^2.8.0",
+		"react-copy-to-clipboard": "^5.1.0",
+		"react-dom": "^18.2.0",
+		"react-loader-spinner": "^5.3.4",
+		"react-router-dom": "^6.14.1",
+		"socket.io-client": "^4.7.1",
+		"sweetalert2": "^11.7.18",
+		"wavesurfer.js": "^7.0.0-beta.14",
+		"windups": "^1.2.1",
+		"ws": "^8.13.0",
+		"zustand": "^4.3.9"
+	},
+	"devDependencies": {
+		"@faker-js/faker": "^8.0.2",
+		"@types/react": "^18.0.37",
+		"@types/react-dom": "^18.0.11",
+		"@vitejs/plugin-react": "^4.0.0",
+		"eslint": "^8.38.0",
+		"eslint-plugin-react": "^7.32.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-refresh": "^0.3.4",
+		"vite": "^4.3.9"
+	}
+}
